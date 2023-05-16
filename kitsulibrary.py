@@ -103,6 +103,7 @@ def kitsu_library_gen(userid: int, count: int = 10, filters: List[int] = [COMPLE
     while True:
         if currentf == len(filters):
             currentf = 0
+            offset = 0
             currentt += 1
         if currentt == len(mtype):
             break
